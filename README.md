@@ -4,6 +4,7 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 
 ## Folder Structure
 
-./Case/  
-./PCB/  
-./Accessories/  
+ - Case/  
+*if it replaces one of the parts of the case, it goes here*  
+ - PCB/  
+ - Accessories/  
