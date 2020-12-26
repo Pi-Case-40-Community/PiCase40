@@ -40,5 +40,12 @@ If it replaces the top, bottom or outer part of the case, it goes in **Cases**. 
 
 - **README**: Your designs must be finalized and tested, and your README must include instructions for reproducing the part from the design. I.e. Mention the machine or manifacturer you have used and cut/print settings or order parameters. E.g. `3D printed at home with Original Prusa i3 MK3S+ in ABS with a layer thickness of 0.3mm, etc...` or `Ordered from XXX. Cut from 1inch aluminum, with a kerf setting of Y, etc...`  
 - **LICENSE**: The recommended LICENSE is [Creative Commons CC BY-SA International 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
-- **Source Files**: Put your source files (I.e. Your CAD software's project file/s in the folder). The use of [Free Software](https://en.wikipedia.org/wiki/Free_software) (such as [FreeCAD](https://www.freecadweb.org/) for example) for the creation of your case is encouraged.
+- **Source Files**: Put your source files (I.e. Your CAD software's project file/s in the folder). The use of [Free Software](https://en.wikipedia.org/wiki/Free_software) (such as [FreeCAD](https://www.freecadweb.org/) for example) for the creation of your case is encouraged. Even if your Top, Bottom or Outer part is comprised of multiple parts, a single source file is fine.
 - **Output Files**: Put both a .STEP and .STL files in your design's respective Output Files folder/s. If your top or outer or bottom of the case has multiple parts, put separate .STEP and .STL files for each of those parts.  
+
+### PCBs
+
+- **README**: Your PCBs must be finalized and tested, and your README must include instructions for purchasing the PCB. I.e. Mention the manifacturer, order parameters and include a BOM list. E.g. `Printed and Assembled by Eecart with ENIG plating, 1.6mm PCB thickness, etc...`  
+- **LICENSE**: Will fill in later  
+- **Source Files**: Will add description later  
+- **Output Files**: Will add description later  
