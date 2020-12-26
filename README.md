@@ -5,7 +5,7 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 ## Folder Structure
 
 - Case/  
-    - <author github username>/  
+    - \<author github username\>/  
         - README.md  
         - LICENSE.md  
         - Top/  
