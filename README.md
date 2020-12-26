@@ -38,5 +38,5 @@ Please use the structure shown above. I.e. Depending on the type of resource, ma
 
 ### Cases
 
-The recommended LICENSE is [Creative Commons CC BY-SA International 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
-Your designs must be finalized and tested, and your README must include instructions for reproducing the part from the design. I.e. Mention the machine or manifacturer you have used and cut/print settings or order parameters. E.g. `3D printed at home with Original Prusa i3 MK3S+ in ABS with a layer thickness of 0.3mm` or `Ordered from XXX. Cut from 1inch aluminum`
+- The recommended LICENSE is [Creative Commons CC BY-SA International 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+- Your designs must be finalized and tested, and your README must include instructions for reproducing the part from the design. I.e. Mention the machine or manifacturer you have used and cut/print settings or order parameters. E.g. `3D printed at home with Original Prusa i3 MK3S+ in ABS with a layer thickness of 0.3mm` or `Ordered from XXX. Cut from 1inch aluminum`  
