@@ -20,5 +20,6 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 
 - PCBs/  
     - \<author github username\>/  
-        - 
+        - README.md
+        - LICENSE.md
 - Accessories/  
