@@ -17,9 +17,15 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
         - Outer/  
             - Source Files/  
             - Output Files/  
-
 - PCBs/  
     - \<author github username\>/  
-        - README.md
-        - LICENSE.md
+        - README.md  
+        - LICENSE.md  
+        - Source Files/  
+        - Output Files/  
 - Accessories/  
+    - \<author github username\>/  
+        - README.md  
+        - LICENSE.md  
+        - Source Files/  
+        - Output Files/  
