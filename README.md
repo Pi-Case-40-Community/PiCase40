@@ -2,16 +2,23 @@
 
 Community modifications, accessories and designs for Cooler Master's Raspberry Pi Case - Pi Case 40 and its GPIO redirecting PCB
 
-## Folder Structure
+## Repo Structure
 
 - Cases/  
     - \<author github username\>/  
         - README.md  
         - LICENSE.md  
         - Top/  
-            - Will add description later  
+            - Source Files/  
+            - Output Files/  
         - Bottom/  
+            - Source Files/  
+            - Output Files/  
         - Outer/  
+            - Source Files/  
+            - Output Files/  
 
 - PCBs/  
+    - \<author github username\>/  
+        - 
 - Accessories/  
