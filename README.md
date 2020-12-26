@@ -7,7 +7,7 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 - Cases/  
     - \<author github username\>/  
         - README.md  
-        - LICENSE.md  
+        - LICENSE  
         - Top/  
             - Source Files/  
             - Output Files/  
@@ -20,12 +20,16 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 - PCBs/  
     - \<author github username\>/  
         - README.md  
-        - LICENSE.md  
+        - LICENSE 
         - Source Files/  
         - Output Files/  
 - Accessories/  
     - \<author github username\>/  
         - README.md  
-        - LICENSE.md  
+        - LICENSE 
         - Source Files/  
         - Output Files/  
+
+## Contributing
+
+If it replaces the top, bottom or outer part of the case, it goes in **Cases**. If it replaces the GPIO redirection PCB, it goes in **PCBs**. If it is an addition to the case, it goes in **Accessories**.
