@@ -36,4 +36,4 @@ If it replaces the top, bottom or outer part of the case, it goes in **Cases**. 
 
 Please use the structure shown above. I.e. Depending on the type of resource, make a folder named after your GitHub username, in the respective directory. Inside it, place a README, a LICENSE and your Source and Output files in the respective folders.
 
-    ### Test
+### Cases
