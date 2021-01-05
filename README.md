@@ -9,7 +9,7 @@ While you are welcome to share your Pi Case 40 creations with us, in any shape o
  1. Release as [Open Source Hardware](https://www.oshwa.org/definition/). We recommend the [strongly-reciprocal variant of CERN Open Hardware License v2.](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
  2. Use [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) for the creation. We recommend [KiCAD](https://kicad.org/) for PCBs, and [FreeCAD](https://www.freecadweb.org/) for 3D/CAD.
  3. Create your PCB with a project-specific library that contains all the schematic symbols and footprints (and possibly 3D shapes) that your PCB uses
- 4. Your README file should mention whether you design has been tested or not, and any settings and/or order parameters and manifacturer used for producing/assembly.
+ 4. Your README file should mention whether your design has been tested or not, and any settings and/or order parameters and manifacturer used for producing/assembly. If your part (whether a PCB or a case part) cannot be used as is with the stock Pi Case 40 and requires other custom part (whether made by you or someone else), please mention that.
  5. Use the structure described in the next section
 
 # Structure
