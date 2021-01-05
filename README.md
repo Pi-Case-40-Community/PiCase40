@@ -21,3 +21,5 @@ Your project folder should contain 3 things:
  1. Your source files. In the case of a CAD project those would be either FreeCAD project file, or a KiCAD project's files in the case of a PCB.
  2. In the case of a PCB - a folder called ```Library``` with folders inside it, named ```3D```, ```Footprints``` and ```Schematic Symbols``` respectively, for your PCB library's footprints and schematic symbols (and possibly 3D shapes).
  3. In cases of a tested project, a folder called ```Output``` for your manifacturing files. .STEP/.STP and .STL in the case of a CAD project, or your gerber and drill files in the case of a PCB.
+
+You can check [/PCB/ifohancroft/](/PCB/ifohancroft/) for an example of a recommended way to structure a PCB project's files.
