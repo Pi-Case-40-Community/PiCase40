@@ -12,6 +12,8 @@ While you are welcome to share your Pi Case 40 creations with us, in any shape o
  4. Your README file should mention whether your design has been tested or not, and any settings and/or order parameters and manifacturer used for producing/assembly. If your part (whether a PCB or a case part) cannot be used as is with the stock Pi Case 40 and requires other custom part (whether made by you or someone else), please mention that.
  5. Use the structure described in the next section
 
+P.S. If you develop in a repo, that's separate from your fork of this one, add a link to your repo, in the README file of your project here.
+
 # Structure
 
 Create a folder with your username as its name, under ```Case```, ```Accessories``` or ```PCB``` (depending on the type of your project). Inside it, put your ```README.md``` and ```LICENSE``` files, as well as a folder with the name of your project.
