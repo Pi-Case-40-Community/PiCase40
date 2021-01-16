@@ -4,6 +4,8 @@ Community modifications, accessories and designs for Cooler Master's Raspberry P
 
 # Contributing
 
+**I will update the Contributing guide soon, as it will become a bit less strict with regards to folder structure**
+
 While you are welcome to share your Pi Case 40 creations with us, in any shape or form and under any license, we strongly encourage you to adhere to the following:
 
  1. Release as [Open Source Hardware](https://www.oshwa.org/definition/). We recommend the [strongly-reciprocal variant of CERN Open Hardware License v2.](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
