@@ -2,6 +2,8 @@
 
 Community modifications, accessories and designs for Cooler Master's Raspberry Pi Case - Pi Case 40 and its GPIO redirecting PCB  
 
+The contributing guide below is to be considered deprecated. We are changing the convention and the way we include repos. The README need to be updated to reflect that and the contributing guide need to be moved to a separate CONTRIBUTING.md file.
+
 # Contributing
 
 **I will update the Contributing guide soon, as it will become a bit less strict with regards to folder structure**
