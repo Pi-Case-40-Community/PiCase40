@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name PiCase40)(type KiCad)(uri $KIPRJMOD/Library/Footprints/PiCase40.pretty)(options "")(descr ""))
-)
