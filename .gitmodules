@@ -1,7 +1,3 @@
-[submodule "PCB/ifohancroft"]
-	path = PCB/ifohancroft
-	url = git@github.com:ifohancroft/PiCase40-GPIO-PCB.git
-	branch = main
 [submodule "PCB/ifohancroft/PiCase40-GPIO-PCB"]
 	path = PCB/ifohancroft/PiCase40-GPIO-PCB
 	url = git@github.com:ifohancroft/PiCase40-GPIO-PCB.git
