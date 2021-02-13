@@ -1,25 +1,26 @@
-The information below is old, I will update it soon but I am leaving it here for now to serve me as a reminder on some points:
+LICENSE
 
-git submodule add -b <main branch name> https://github.com/<username>/<repo name>.git ./PCB/<username>/<repo name>/
+You must include a LICENSE file in the root directory of your repo.
 
-While you are welcome to share your Pi Case 40 creations with us, in any shape or form and under any license, we strongly encourage you to adhere to the following:
+If you have used Cooler Master's files in the creation process or if your design is based on them - you must adhere to their license, otherwise, we encourage you to use [the strongly-reciprocal variant of CERN Open Hardware License v2.](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) for hardware, and [The GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) for software.
 
- 1. Release as [Open Source Hardware](https://www.oshwa.org/definition/). We recommend the [strongly-reciprocal variant of CERN Open Hardware License v2.](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
- 2. Use [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) for the creation. We recommend [KiCAD](https://kicad.org/) for PCBs, and [FreeCAD](https://www.freecadweb.org/) for 3D/CAD.
- 3. Create your PCB with a project-specific library that contains all the schematic symbols and footprints (and possibly 3D shapes) that your PCB uses
- 4. Your README file should mention whether your design has been tested or not, and any settings and/or order parameters and manifacturer used for producing/assembly. If your part (whether a PCB or a case part) cannot be used as is with the stock Pi Case 40 and requires other custom part (whether made by you or someone else), please mention that.
- 5. Use the structure described in the next section
+README
 
-P.S. If you develop in a repo, that's separate from your fork of this one, add a link to your repo, in the README file of your project here.
+You must include a README.md in the root directory of your repo.
 
-# Structure
+If your project isn't done and tested, make sure your README specifies that in an unambiguous way, whether that's by including a TODO section or by simply stating that it isn't done and/or tested. If your project is done and tested, make sure to specify manifacturer and order parameters or reproduction procedure (if done at home), as well as output files generation parameters (if specific ones are required) that you have confirmed to work, in the case of hardware, or compilation (if needed) and usage method, in the case of software.
 
-Create a folder with your username as its name, under ```Case```, ```Accessories``` or ```PCB``` (depending on the type of your project). Inside it, put your ```README.md``` and ```LICENSE``` files, as well as a folder with the name of your project.
+STANDARDS
 
-Your project folder should contain 3 things:
+1. We strongly recommend the use of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) for the creation of your project. So, please consider using [FreeCAD](https://www.freecadweb.org/) for your CAD needs, [KiCAD](https://kicad.org/) for EDA and [Vim](https://www.vim.org/) for any code or documentation.
+2. Your repo must include the source files. Releasing just .STP/.STL, gerbers, PDF of your schematic, or a compiled binary is not accepted. In the case of a PCB, you must also release any schematic symbols, footprints, etc that your PCB uses, in a project specific library.
+3. If your design is ready and tested and your manifacturer requires a specific way of generating the output files, consider releasing those as well, in a clearly marked folder, besides documenting the generation procedure in your README.
+4. Your repo's main branch must not be called 'master'. We recommend the name 'main' instead.
 
- 1. Your source files. In the case of a CAD project those would be either FreeCAD project file, or a KiCAD project's files in the case of a PCB.
- 2. In the case of a PCB - a folder called ```Library``` with folders inside it, named ```3D```, ```Footprints``` and ```Schematic Symbols``` respectively, for your PCB library's footprints and schematic symbols (and possibly 3D shapes).
- 3. In cases of a tested project, a folder called ```Output``` for your manifacturing files. .STEP/.STP and .STL in the case of a CAD project, or your gerber and drill files in the case of a PCB.
+Pull Request Procedure
 
-You can check [/PCB/ifohancroft/](/PCB/ifohancroft/) for an example of the recommended way to structure a PCB project's files.
+1. Fork the repo and clone your fork using the method described in the README.md
+2. Add your project's repo as a submodule in the respective folder, by cd-ing into the repo's root folder and executing the following command ```git submodule add -b <main branch name> https://github.com/<username>/<repo name>.git ./<project type folder>/<username>/<repo name>/``` after replacing the <keywords> in it with the required information. Make sure you use the https url to your repository and not the ssh one, or people won't be able to clone your submodule without needing the password for your private key.
+3. Commit using a descriptive commit message.
+4. Push
+5. Open a PR.
