@@ -6,3 +6,7 @@
 	path = PCB/nobodypb/PiCase40-GPIO
 	url = https://github.com/nobodypb/PiCase40-GPIO.git
 	branch = master
+[submodule "Software/lpgera/pi-case-40-button"]
+	path = Software/lpgera/pi-case-40-button
+	url = https://github.com/lpgera/pi-case-40-button.git
+	branch = master
