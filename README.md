@@ -2,6 +2,12 @@
 
 Community modifications, accessories and designs for Cooler Master's Raspberry Pi Case - Pi Case 40 and its GPIO redirecting PCB  
 
+Here is what we have so far:
+
+ - GPIO redirection PCB replacement by [nobodypb](https://github.com/nobodypb)
+ - GPIO redirection PCB replacement by [ifohancroft](https://github.com/ifohancroft)
+ - Software to remap the button from CLI by [lpgera](https://github.com/lpgera)
+
 ## Housekeeping
 
 ### Cloning
