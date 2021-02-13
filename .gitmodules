@@ -2,3 +2,7 @@
 	path = PCB/ifohancroft/PiCase40-GPIO-PCB
 	url = https://github.com/ifohancroft/PiCase40-GPIO-PCB.git
 	branch = main
+[submodule "PCB/nobodypb/PiCase40-GPIO"]
+	path = PCB/nobodypb/PiCase40-GPIO
+	url = https://github.com/nobodypb/PiCase40-GPIO.git
+	branch = master
